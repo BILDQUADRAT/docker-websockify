@@ -1,5 +1,4 @@
-FROM debian:wheezy
-MAINTAINER simon@nostalgeek.com
+FROM armhfbuild/debian:wheezy
 
 ADD websockify /app
 WORKDIR /app
